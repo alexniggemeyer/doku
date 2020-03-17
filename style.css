@@ -45,9 +45,9 @@ header{
 }
 
 section{
-    margin-left: 50px;
-    max-width: 1440px;
+    
 }
+
 /* Top Menu*/
 .cover{
 
@@ -63,14 +63,14 @@ section{
 .cover span{
     text-align: center;
     font-family: Elliot_heavy;
-    font-size: 100px;
+    font-size: 7vh;
     color:white;
-    margin-top:  25px;
     width: 100%;
 }
 .cover img{
+    margin-bottom: 7vh;
     display: block;
-    margin-bottom: 25px;
+    width: 60%;
 }
 
 .header{
@@ -83,8 +83,8 @@ section{
 }
 
 .header a{
-    flex: 4;
-    margin: auto;
+    padding: 0 5px 0 0;
+    margin: auto 0;
     text-align: left;
     font-family: Elliot_bold;
 }
@@ -99,8 +99,7 @@ section{
 /* Menu Icon*/
 .header span{
 
- flex:1;
- margin: auto 20px auto;
+ margin: auto 20px;
  font-size: 30px;
  font-family: Elliot;
  cursor: pointer;
@@ -124,18 +123,17 @@ section{
     font-family: Elliot;
 }
 
-a{
+#sidebar a{
     display: block;
     text-decoration: none;
-    text-align: center;
     color: black;
     transition: 0.3s;
     font-size: 25px;
-    padding: 10px;
+    padding: 10px 20px;
     font-family: Elliot;
     
 }
-a:hover{
+#sidebar a:hover{
     color: lightgray;
 }
 
@@ -150,7 +148,7 @@ a:hover{
 
 
 img{
- max-width: 80%;
+ 
  margin: auto;
 }
 
@@ -163,9 +161,10 @@ img{
 
 .underline{
     position: relative;
+    float: right;
     border-radius: 10px 0 0 10px;
     display: block;
-    width: 100%;
+    width: 97%;
     height: 40px;
     top: -20px;
     background-color: #FEE01E;
@@ -178,26 +177,26 @@ h1{
 
     font-family: Elliot_bold;
     font-size: 60px;
-    margin: 70px 0 100px 0;
+    margin: 70px 0 100px  7%;
 }
 
 h2{
     font-family: Elliot_bold;
     font-size: 40px;
-    margin: 100px 10px 0;
+    margin: 100px 10px 0 7%;
 
 }
 
 h3{
     font-family: Elliot_bold;
     font-size: 30px;
-    margin:50px 0 20px 0;
+    margin:50px 0 20px 7%;
 }
 
 h4{
     font-family: Elliot_bold;
     font-size: 25px;
-    margin: 0 20px 50px 10px;
+    margin: 0 20px 50px 7%;
 }
 
 h5{
@@ -222,31 +221,31 @@ video{
 
 .content_style_1{
     display:flex;
-    margin: 70px 0 100px 0;
-    justify-content: space-around;
+    margin: 70px 7% 100px 7%;
+    justify-content: space-between;
     flex-wrap: wrap;
     
     
 }
 
 .content_style_1 div{
-    flex: 0 50%;
-    display: flex;
+    flex: 0 45%;
+    
     flex-direction: column;
     justify-content: flex-start;
+    
 }
 
 .content_style_1 p{
     display:block;
     max-width: 600px;
-    margin: auto 0;
+    margin: 0;
     
 }
 
 
 .content_style_1 img{
-    width: 90%;
-    margin: auto;
+    width: 100%;
     border-radius: 10px;
     
     
@@ -261,7 +260,7 @@ video{
 .content_style_2{
     display: flex;
     flex-direction: column;
-    margin: 70px 0 70px 10px;
+    margin: 70px 7% 70px 7%;
 }
 
 .content_style_2 .text{
@@ -326,9 +325,13 @@ video{
     position: relative;
     float: left;
     width: 60%;
+    margin-top: 50px;
 }
 .content_left span{
     border-radius: 0 10px 10px 0;
+}
+.content_left p{
+    margin: 0 0 0 11.7%;
 }
 
 .content_right{
@@ -336,14 +339,19 @@ video{
     position: relative;
     float: right;
     width: 60%;
+    margin-top: 50px;
 }
 
 .content_right span{
     border-radius: 10px 0 0 10px;
 }
 
-#myBtn1{
+.content_right p{
+    margin: 0 11.7% 0 0;
+}
 
+#myBtn1{
+    margin-left: 11.7%;
     padding-top: 10px;
     cursor: pointer;
     text-decoration: underline;
@@ -367,7 +375,7 @@ video{
 }
 
 #myBtn3{
-
+    margin-left: 11.7%;
     padding-top: 10px;
     cursor: pointer;
     text-decoration: underline;

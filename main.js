@@ -115,7 +115,7 @@ function right() {
 
   $(document).ready(function() {
     
-
+    var heading = $('.heading');
     var scrollLink = $('.scroll');
 
     scrollLink.click(function(e) {
@@ -126,16 +126,30 @@ function right() {
         
     });
 
+
+
+    
     $(window).scroll(function() {
         var scrollbarLocation = $(this).scrollTop();
         
         scrollLink.each(function() {
           
-          var sectionOffset = $(this.hash).offset().top - 20;
+          var sectionOffset = $(this.hash).offset().top - 60;
           
           if ( sectionOffset <= scrollbarLocation ) {
             $('.top').text($(this.hash).attr('id'));
+            $('.subsection').text('');
           }
+
+          $(this.hash).children('h2').each(function(){
+
+            if( $(this).offset().top <= scrollbarLocation){
+                $(".subsection").text( " > " + $(this).text());
+            }
+              
+          })
+          
+          
         })
     })
 

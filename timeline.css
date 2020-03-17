@@ -7,11 +7,7 @@
 /* The actual timeline (the vertical ruler) */
 .timeline {
   position: relative;
-  max-width: 1440px;
-  margin: 0 20px 0 20px;;
- 
-  border-radius: 20px;
-  padding: 30px;
+  margin: 0 7%;
 }
 
 /* The actual timeline (the vertical ruler) */
@@ -29,7 +25,7 @@
 
 /* Container around content */
 .container {
-  padding: 10px 50px;
+
   position: relative;
   background-color: inherit;
   width: 50%;
@@ -52,11 +48,14 @@
 /* Place the container to the left */
 .left {
   left: 0;
+  padding-right: 50px;
+
 }
 
 /* Place the container to the right */
 .right {
   left: 50%;
+  padding-left: 50px;
 }
 
 /* Add arrows to the left container (pointing right) */

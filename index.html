@@ -3,13 +3,14 @@
     <head>
         <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="stylesheet" type="text/css" href="timeline.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script src="main.js"></script>
     </head>
     <header>
         <div class="cover">
             <div>
-                <img src="IMG/Logo_1_1.png">
+                <img src="IMG/Logo_1_1.svg">
                 <span>Die digitale Identität</span>                
             </div>
 
@@ -17,18 +18,20 @@
         <div class="header" id="topheader">
 
             <span onclick="openNav()">&#9776;</span>
-            <a  class="top">Kontext</a>    
+            <a  class="top">Kontext</a><a class="subsection"></a>
         </div>
     </header>
     <body>
 
         <div id="sidebar">
             <a href="javascript:void(0)" id="close" onclick="closeNav()">&times;</a>
+            <a class="scroll" href="#Einleitung">Einleitung</a>
             <a class="scroll" href="#Kontext">Kontext</a>
             <a class="scroll" href="#Recherche">Recherche</a>
             <a class="scroll" href="#Analyse">Analyse</a>
             <a class="scroll" href="#Ideation">Ideation</a>
             <a class="scroll" href="#Konzept">Konzept</a>
+            <a class="scroll" href="#Ausblick">Ausblick</a>
         </div>
 
 
@@ -47,14 +50,14 @@
                     </p>                    
                 </div>
                 <div>
-                    <img src="IMG/round-silver-colored-watch-on-book-page-3303640.jpg" style="margin-top:0;">
+                    <img src="IMG/round-silver-colored-watch-on-book-page-3303640.jpg" style="margin-top:0;" data-aos="fade-in">
                 </div>
 
             </div>
         </section>
         <section id="Kontext">
             <h1>Kontext</h1>
-            <h2>Das Amt</h2>
+            <h2 class="heading">Das Amt</h2>
             <span class="underline"></span>
 
 
@@ -77,14 +80,14 @@
             <div class="timeline">
 
                 <div class="container left">
-                  <div class="content">
+                  <div class="content" data-aos="fade-right">
                     <h4>Termin ausmachen</h4>
                     <img src="IMG/Behörde/people">
                     <p>Um eine Leistung wahrnehmen zu können, muss vorab ein Termin augemacht werden. Diese sind meist schon einige Montate im voraus ausgebucht.</p>
                   </div>
                 </div>
                 <div class="container right">
-                  <div class="content">
+                  <div class="content" data-aos="fade-left">
                     <h4>Auf dem Weg zum Amt</h4>
                     <img src="IMG/Behörde/eingang rathaus.jpg">
                     <p>
@@ -93,28 +96,28 @@
                 </div>
                 </div>
                   <div class="container left">
-                  <div class="content">
+                  <div class="content" data-aos="fade-right">
                     <h4>Im Wartebereich</h4>
                     <img src="IMG/Behörde/Rathaus_wartebereich.jpg">
                     <p>Auf der Karte findet sich der Startcode in vorm eines QRCodes, der direkt zur persönlichen Einrichtung seiner Identität führt.</p>
                   </div>
                 </div>
                 <div class="container right">
-                  <div class="content">
+                  <div class="content" data-aos="fade-left">
                     <h4>Auf den Temrin warten</h4>
                     <img src="IMG/Behörde/waten.jpg">
                     <p>Die Einrichtung/Erstellung kann alleine oder mit Angehörigen durchgeführt werden, dabei unterscheidet sich die Interaktion.</p>
                   </div>
                 </div>
-                <div class="container left">
-                  <div class="content">
+                <div class="container left" >
+                  <div class="content" data-aos="fade-right">
                     <h4>Auf zum Termin</h4>
                     <img src="IMG/Behörde/warten mit bildschirm.jpg">
                     <p>Die Einrichtung/Erstellung kann alleine oder mit Angehörigen durchgeführt werden, dabei unterscheidet sich die Interaktion.</p>
                 </div>
                 </div>
-                <div class="container right">
-                    <div class="content">
+                <div class="container right" >
+                    <div class="content" data-aos="fade-left">
                         <h4>Zum Sachbearbeiter</h4>
                       <img src="IMG/Behörde/Reingehen.jpg">
                       <p>Die Einrichtung/Erstellung kann alleine oder mit Angehörigen durchgeführt werden, dabei unterscheidet sich die Interaktion.</p>
@@ -122,7 +125,7 @@
                   </div>
             </div>
 
-            <h2>Die Lebenswirklichkeit</h2>
+            <h2 class="heading">Die Lebenswirklichkeit</h2>
             <span class="underline"></span>
 
             <div class="content_style_1">
@@ -137,18 +140,22 @@
                 
             </div>
 
-            <h2>Maßnahmen der Stadt</h2>
+            <h2 class="heading">Maßnahmen der Stadt</h2>
             <span class="underline"></span>
  
 
             <div class="content_style_1">
-                <p>
-                    Um lange Wartezeiten zu verhindern, hat die Stadt Kiel vor einigen Jahren feste Termine eingeführt.  Jedoch führte dies im Umkehrschluss dazu, dass es immer schwieriger wurde überhaupt einen Termin zu bekommen.  Teileweise mussten Bürger*innen über einen Monat auf ihren Termin warten. Als gegen Maßnahme wurde die spontan Sprechstunde wieder eingeführt. Jeden Freitag können Bürger*innen ohne Termin im Rathaus erscheinen. Dies führt wiederum zu längern Wartezeiten vorort. 
-                </p>
+                <div>
+                    <p>
+                        Um lange Wartezeiten zu verhindern, hat die Stadt Kiel vor einigen Jahren feste Termine eingeführt.  Jedoch führte dies im Umkehrschluss dazu, dass es immer schwieriger wurde überhaupt einen Termin zu bekommen.  Teileweise mussten Bürger*innen über einen Monat auf ihren Termin warten. Als gegen Maßnahme wurde die spontan Sprechstunde wieder eingeführt. Jeden Freitag können Bürger*innen ohne Termin im Rathaus erscheinen. Dies führt wiederum zu längern Wartezeiten vorort. 
+                    </p>                    
+                </div>
+                <div>
+                    <a target="blank" href="https://www.kiel.de/de/politik_verwaltung/meldung.php?id=93471">
+                        <img class=""src="IMG/Wiedereinführung.png" alt="Wiedereinführung">
+                    </a>                     
+                </div>
 
-                <a target="blank" href="https://www.kiel.de/de/politik_verwaltung/meldung.php?id=93471">
-                    <img class=""src="IMG/Wiedereinführung.png" alt="Wiedereinführung">
-                </a> 
             </div>
 
 
@@ -164,7 +171,7 @@
                 </p>
             </div>
 
-            <h2>Theoretischer Exkurs: Digitalisierung und Digitaliät</h2>
+            <h2 class="heading">Theoretischer Exkurs: Digitalisierung und Digitaliät</h2>
             <span class="underline"></span>
 
             <div class="content_style_1" >
@@ -176,7 +183,6 @@
                         <span onclick="myFunction()" id="myBtn">Mehr Lesen</span>
                     </p>
                     
-
                 </div>
                 <div>
                     <img src="IMG/Zuse_Z3.jpg" alt="Zuse Z3" style="align-self: flex-start; margin: 0 auto;;">
@@ -416,13 +422,13 @@
 
             <h2>Folge Fragen</h2>
             <div class="content_style_4">
-                <div class="content_left">
+                <div class="content_left" data-aos="zoom-in-right" data-aos-anchor-placement="center-bottom">
                     <span class="content_style_4_span fragen">Wer oder was mach mich zum Bürger ?</span>
                 </div>
-                <div class="content_right">
+                <div class="content_right"data-aos="zoom-in-left" data-aos-anchor-placement="center-bottom">
                     <span class="content_style_4_span fragen">Wie viel Eigenverantwortung möchte ich übernehmen ?</span>
                 </div>
-                <div class="content_left">
+                <div class="content_left"data-aos="zoom-in-right" data-aos-anchor-placement="center-bottom">
                     <span class="content_style_4_span fragen">Welche Berührungspunkte habe ich mit dem Staat ?</span>
                 </div>
             </div>
@@ -538,13 +544,17 @@
             </div>
 
             <h2>Resultierender Handlungsrahmen</h2>
+            <span class="underline"></span>
             <div class="content_style_1">
-                <p style="margin-top: 40px;">
-                    Aus der vorhergehenden Recherche und theroetischer Betrachtung der Wissensgesellschaft und deren Machtverhältnisse ergeben sich zwei verschiedene Sichtfelder für den Handlungsrahmen für die Digitalisierung der Behörde. Aus politischer Sicht steht die Leistung bzw. der Service im Vordergrund. Dieser wird durch folgende Eckpunkte des Vierecks bestimmt: Der Bürgerwille, die technischen Möglichkeiten, der politische Wille und die rechtlichen Möglichkeiten. Die andere Sichtweise ist die der*des Bürgers*in. Das Handlungsfeld der*des Bürgers*in setzt sich aus drei Punkten zusammen. Dem staatlichen Eingriff, den gesellschaftlichen Verhältnissen und dem eigenen Wissen.
-                    Das Viereck beschreibt den Handlungsrahmen der Digitalisierung, während das Dreieck den Handlungsrahmen der Digitalität absteckt. Jedoch beinflussen beide sich gegenseitig und können nicht von einander getrennt werden. Ein digitaler Service muss folglich also auf die Bedürnisse der Menschen eingestellt sein bzw. muss dieser zur Lebenswirklichkeit der menschen passen. Der staatliche Eingriff muss in das gesellschafliche Verständnis passen und mit dem eigenen Wissen erfassbar sein. An dieser Stelle wird die Diskrepanz zwischen zwischen Digitalisierung und Digitalität deutlich. Auf der einen Seite steht die Behörde mit dem Vorsatz der Digitalisierung ihrer Verwaltungsleistungen und auf der anderen steht der Bürger mit seinem digitalen Lebenswandel.
-                    Damit stellt sich die Frage, was passieren sollte, damit die digitale Behörde in die Digitalität der Menschen integriert werden kann.
-                </p>
-                <div class="content_style_2" style="margin:0;">
+                <div>
+                    <p style="margin-top: 40px;">
+                        Aus der vorhergehenden Recherche und theroetischer Betrachtung der Wissensgesellschaft und deren Machtverhältnisse ergeben sich zwei verschiedene Sichtfelder für den Handlungsrahmen für die Digitalisierung der Behörde. Aus politischer Sicht steht die Leistung bzw. der Service im Vordergrund. Dieser wird durch folgende Eckpunkte des Vierecks bestimmt: Der Bürgerwille, die technischen Möglichkeiten, der politische Wille und die rechtlichen Möglichkeiten. Die andere Sichtweise ist die der*des Bürgers*in. Das Handlungsfeld der*des Bürgers*in setzt sich aus drei Punkten zusammen. Dem staatlichen Eingriff, den gesellschaftlichen Verhältnissen und dem eigenen Wissen.
+                        Das Viereck beschreibt den Handlungsrahmen der Digitalisierung, während das Dreieck den Handlungsrahmen der Digitalität absteckt. Jedoch beinflussen beide sich gegenseitig und können nicht von einander getrennt werden. Ein digitaler Service muss folglich also auf die Bedürnisse der Menschen eingestellt sein bzw. muss dieser zur Lebenswirklichkeit der menschen passen. Der staatliche Eingriff muss in das gesellschafliche Verständnis passen und mit dem eigenen Wissen erfassbar sein. An dieser Stelle wird die Diskrepanz zwischen zwischen Digitalisierung und Digitalität deutlich. Auf der einen Seite steht die Behörde mit dem Vorsatz der Digitalisierung ihrer Verwaltungsleistungen und auf der anderen steht der Bürger mit seinem digitalen Lebenswandel.
+                        Damit stellt sich die Frage, was passieren sollte, damit die digitale Behörde in die Digitalität der Menschen integriert werden kann.
+                    </p>                    
+                </div>
+
+                <div>
                     <img src="IMG/parti_Handlungsfeld_Schaubild.png">
                     <img src="IMG/verwaltungsviereck_Schaubild.png">
                 </div>
@@ -1090,6 +1100,9 @@
 
 
 
-
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>
