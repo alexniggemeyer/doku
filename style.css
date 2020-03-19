@@ -154,7 +154,7 @@ img{
 
 .alone{
     display: flex;
-    margin-bottom: 70px;
+    margin: 7% ;
 }
 
 
@@ -605,60 +605,6 @@ video{
 
 }
 
-/* Slider */
-
-.slider{
-    
-    display: flex;
-     
-    overflow-x: scroll;
-    scrollbar-width: none;
-    scroll-behavior: smooth;
-
-}
-
-.slider::-webkit-scrollbar {
-    display: none;
-}
-#container_slider{
-    display: flex;
-    background-color: lightgray;
-    padding: 30px 10px 20px;
-    border-radius: 10px;;
-
-}
-.prev, .next {
-    cursor: pointer;
-
-    font-size: 50px;
-    text-align: middle;
-    margin: auto;
-    padding:0;
-    
-    
-  }
-
-.next{
-    right:0 ;
-}
-
-.slide{
-    margin: 0 20px;
-    display: flex;
-    flex-direction: column;
-
-}
-
-.img_slide{
-    display: block;
-    width: 500px;
-}
-
-.slide span{
-    font-family: Elliot;
-    text-align: center;  
-}
-
 
 .taber{
  margin: auto;
@@ -669,27 +615,27 @@ video{
 
     display: flex;
     overflow: hidden;
-
-
     
   }
   
   /* Style the buttons that are used to open the tab content */
   .tab a {
+    font-family: Elliot;
     cursor: pointer;
     padding: 14px 16px;
     transition: 0.3s;
+    border-radius: 10px 10px 0 0;
   }
   
   /* Change background color of buttons on hover */
-  .tab button:hover {
+  .tab a:hover {
     background-color: #ddd;
   }
   
   /* Create an active/current tablink class */
   .tab a.active {
     background-color: #CCD6F1;
-    border-radius: 10px 10px 0 0;
+    
   }
   
   /* Style the tab content */
