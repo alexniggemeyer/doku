@@ -3,9 +3,11 @@
     <head>
         <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="stylesheet" type="text/css" href="timeline.css">
+        <link rel="stylesheet" type="text/css" href="slider.css">
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script src="main.js"></script>
+        <script src="slideshow.js" ></script>
     </head>
     <header>
         <div class="cover">
@@ -729,14 +731,16 @@
 
         <h2>Wireframes</h2>
 
-
-        <h3>Einleitung</h3>
-
-        <img src="IMG/Wireframes/Wire_Intro.png">
-
-        <h3>Antrag Personalausweis</h3>
-
-        <img src="IMG/Wireframes/Wire_Personal.png">
+        <div class="wrap">
+            <button onclick="prev()">&laquo;</button>
+            
+            <div class="scroller">
+              <ul class="items">
+                
+              </ul>
+            </div>
+            <button onclick="next()">&raquo;</button>
+        </div>
 
 
         </section>

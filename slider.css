@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .slider_img{
+    display: block;
+    width: 100%;
+  }
+  
+  .wrap{
+    display: flex;
+    align-items: stretch;
+    width: 90%;
+    margin: auto;
+  }
+  
+  button{
+    width: 30px;
+    border: none;
+    background: transparent;
+    color: rgb(58, 52, 52);
+    font-size: 40px;
+    text-align: center;
+    outline: none;
+    opacity: 0.5;
+    transition: opacity 300ms ease-out;
+  }
+  
+  .scroller{
+    flex: 1;
+    overflow: hidden;
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    ;
+  }
+  
+  .items{
+    list-style-type: none;
+    white-space: nowrap;
+    font-size: 0;
+    line-height: 0;
+    transition: transform 1s ease-in-out;
+  }
+  
+  .item{
+    padding: 30px 0;
+    display: inline-block;
+    width: 100%;
+    background-size: cover;
+    background-position: 50% 50%;
+    
+  }

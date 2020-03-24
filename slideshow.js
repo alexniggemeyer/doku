@@ -10,7 +10,7 @@ $(document).ready(function () {
 
 
 
-    var dir = "IMG/Behörde/"
+    var dir = "IMG/Wireframe_Slideshow/"
     var ImgLinks = new Array();
     
     
@@ -24,7 +24,7 @@ $(document).ready(function () {
         });
 
         $.each(ImgLinks, function(i){                   //adding Path to Img-Tag
-            $('<li class="item"></li>').attr("style", "background-image: url(" + ImgLinks[i] + ");").appendTo('ul');
+            $('<li class="item"></li>').html("<img class='slider_img' src='" + ImgLinks[i] + "'>").appendTo('.items');
         });
 
         ItemCount = $('.item').length;

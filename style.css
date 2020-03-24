@@ -297,6 +297,7 @@ video{
 .content_style_3{
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
 }
 .content_style_4{
     display: inline-block;
