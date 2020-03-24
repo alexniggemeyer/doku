@@ -28,6 +28,7 @@ $(document).ready(function () {
         });
 
         ItemCount = $('.item').length;
+        console.log(ItemCount);
         
     }); 
     
