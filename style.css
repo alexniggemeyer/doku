@@ -405,7 +405,7 @@ video{
     margin:auto;
     max-width: 90%;
     border-radius: 10px;
-    background-color: #0031B8;
+    background-color:#00258D;
     color: white;
 }
 .gesetz ul{
@@ -521,12 +521,13 @@ video{
 }
 
 #welle{
+    display: block;
     position: relative;
     float: right;
-    height: 400px;
-    width: 90%;
+    height: 30vh;
+    width: 93%;
     background-color: #009EE0;
-    border-radius: 0 0 0 150px;;
+    border-radius: 0 0 0 150px;
 }
 
 /* Schaubilder */
