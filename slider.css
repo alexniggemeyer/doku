@@ -12,8 +12,8 @@
   .wrap{
     display: flex;
     align-items: stretch;
-    width: 90%;
-    margin: auto;
+    margin: 30px 7% 100px 7%;
+
   }
   
   button{
