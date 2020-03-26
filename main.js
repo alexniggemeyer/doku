@@ -47,72 +47,22 @@ function right() {
     evt.currentTarget.className += " active";
   }
 
-  function myFunction1() {
-    var dots = document.getElementById("dots");
-    var moreText = document.getElementById("more1");
-    var btnText = document.getElementById("myBtn1");
+  function readmore(no) {
+    console.log(no);
+
+    var moreText = document.querySelectorAll(".more");
+    var btnText = document.querySelectorAll(".ReadMore");
   
-    if (dots.style.display === "none") {
-      dots.style.display = "inline";
-      btnText.innerHTML = "Mehr lesen";
-      moreText.style.display = "none";
+    if (moreText[no].style.display === "inline") {
+      btnText[no].innerHTML = "Mehr lesen";
+      moreText[no].style.display = "none";
     } else {
-      dots.style.display = "none";
-      btnText.innerHTML = "Weniger lesen";
-      moreText.style.display = "inline";
+      btnText[no].innerHTML = "Weniger lesen";
+      moreText[no].style.display = "inline";
     }
   }
 
-  function myFunction2() {
-    var dots = document.getElementById("dots");
-    var moreText = document.getElementById("more2");
-    var btnText = document.getElementById("myBtn2");
   
-    if (dots.style.display === "none") {
-      dots.style.display = "inline";
-      btnText.innerHTML = "Mehr lesen";
-      moreText.style.display = "none";
-    } else {
-      dots.style.display = "none";
-      btnText.innerHTML = "Weniger lesen";
-      moreText.style.display = "inline";
-    }
-  }
-
-  function myFunction3() {
-    var dots = document.getElementById("dots");
-    var moreText = document.getElementById("more3");
-    var btnText = document.getElementById("myBtn3");
-  
-    if (dots.style.display === "none") {
-      dots.style.display = "inline";
-      btnText.innerHTML = "Mehr lesen";
-      moreText.style.display = "none";
-    } else {
-      dots.style.display = "none";
-      btnText.innerHTML = "Weniger lesen";
-      moreText.style.display = "inline";
-    }
-  }
-
-  function myFunction4() {
-    var dots = document.getElementById("dots");
-    var moreText = document.getElementById("more4");
-    var btnText = document.getElementById("myBtn4");
-  
-    if (dots.style.display === "none") {
-      dots.style.display = "inline";
-      btnText.innerHTML = "Mehr lesen";
-      moreText.style.display = "none";
-    } else {
-      dots.style.display = "none";
-      btnText.innerHTML = "Weniger lesen";
-      moreText.style.display = "inline";
-    }
-  }
-
-
-
   $(document).ready(function() {
     
     var heading = $('.heading');
