@@ -145,7 +145,19 @@ section{
 
 /* Content */
 
+.chapter{
+    display: flex;
+    background-color: #00258D;
+    height: 100vh;
+}
 
+.chapter span{
+
+    font-family: Elliot_heavy;
+    font-size: 10vh;
+    color:white;
+    margin: auto 7%;
+}
 
 img{
  
