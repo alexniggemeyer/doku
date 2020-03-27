@@ -7,7 +7,7 @@
 /* The actual timeline (the vertical ruler) */
 .timeline {
   position: relative;
-  margin: 0 7%;
+  margin: 80px 7% 0 7%;
 }
 
 /* The actual timeline (the vertical ruler) */
@@ -109,6 +109,7 @@
   width: 100%;
   max-width: 100%;
   margin-bottom: 5px;
+  border-radius: 5px;
   
 
 }
