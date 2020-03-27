@@ -597,21 +597,25 @@ video{
   
   /* Style the buttons that are used to open the tab content */
   .tab a {
-    font-family: Elliot;
+    font-family: Elliot_bold;
     cursor: pointer;
     padding: 14px 16px;
     transition: 0.3s;
     border-radius: 10px 10px 0 0;
+    
   }
   
   /* Change background color of buttons on hover */
   .tab a:hover {
-    background-color: #ddd;
+    background-color: #00258D;
+    color: white;
   }
   
   /* Create an active/current tablink class */
   .tab a.active {
-    background-color: #CCD6F1;
+    background-color: #00258D;
+    color: white;
+    transition: ease;
     
   }
   
@@ -619,9 +623,11 @@ video{
   .tabcontent {
     margin: 0;
     display: none;
-    padding: 50px 12px;
-    background-color:#CCD6F1;
+    padding: 12px;
+    color: white;
+    background-color:#00258D;
     border-radius: 0 10px 10px 10px;
+    transition: all 0.2s ease-out;
   } 
 
   .tabcontent p{
