@@ -93,6 +93,7 @@
 
 /* The actual content */
 .content {
+  overflow: hidden;
   padding: 20px 30px;
   background-color: rgb(233, 241, 255);
   position: relative;

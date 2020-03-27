@@ -26,9 +26,6 @@
 }
 
 /* Background*/
-html{
-    width: 100%;
-}
 
 body{
     padding: 0;
@@ -61,11 +58,11 @@ header{
     margin:auto;
 }
 .cover span{
+    display: inline-block;
     text-align: center;
     font-family: Elliot_heavy;
     font-size: 7vh;
     color:white;
-    width: 100%;
 }
 .cover img{
     margin: auto;
@@ -334,7 +331,7 @@ video{
 
 .content_style_4 img{
     max-width:100%;
-    margin: 20px;
+    
 }
 .content_left{
     display: block;
