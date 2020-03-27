@@ -26,6 +26,9 @@
 }
 
 /* Background*/
+html{
+    width: 100%;
+}
 
 body{
     padding: 0;
@@ -44,9 +47,6 @@ header{
     padding:0;
 }
 
-section{
-    
-}
 
 /* Top Menu*/
 .cover{
@@ -68,6 +68,7 @@ section{
     width: 100%;
 }
 .cover img{
+    margin: auto;
     margin-bottom: 7vh;
     display: block;
     width: 60%;
@@ -159,14 +160,16 @@ section{
     margin: auto 7%;
 }
 
-img{
- 
- margin: auto;
-}
+
 
 .alone{
     display: flex;
     margin: 7% ;
+}
+
+.alone img{
+ width: 100%;
+ margin: auto;
 }
 
 
