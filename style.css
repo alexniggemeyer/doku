@@ -485,14 +485,16 @@ video{
 }
 
 #lebenslauf{
+
     margin-bottom: 30px;
     overflow: hidden;
     overflow-x: scroll;
+    
 }
 
 #lebenslauf img{
     margin:0;
-    height: 650px;
+    height: 60vh;
     max-width: none;
 }
 
@@ -550,15 +552,16 @@ video{
 }
 
 .reasons{
+    margin: 0 7%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     
     
 }
 
 .reasons span{
-    flex: 0 28%;
+    flex: 0 30%;
     text-align: center;
     margin-bottom: 80px;
 
@@ -566,7 +569,7 @@ video{
 
 .fett{
     font-family: Elliot_bold;
-    font-size: 25px;
+    font-size: 2vh;
     background-color: #009EE0;
     padding: 2rem;
     border-radius: 10px;
@@ -576,7 +579,6 @@ video{
 
 .medium{
     font-family: Elliot;
-    font-size: 20px;
     background-color: lightblue;
     padding: 2rem;
     border-radius: 10px;
