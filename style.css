@@ -76,7 +76,7 @@ header{
     background-color: white;
     height: 60px;
     width: 100%;
-    box-shadow: 0 6px 5px lightgray;
+    box-shadow: 0 3px 5px lightgray;
     display: flex;
     z-index: 2;
 }
@@ -116,7 +116,7 @@ header{
     left:0;
     background-color: white;
     z-index: 1;
-    border-right: solid lightgray 2px;
+    border-right: solid lightgray 1px;
     transition: 0.5s;
     overflow-x: hidden;
     font-family: Elliot;
@@ -133,7 +133,8 @@ header{
     
 }
 #sidebar a:hover{
-    color: lightgray;
+    color: white;
+    background-color: #00258D;
 }
 
 #close{
@@ -226,9 +227,8 @@ p{
 }
 
 video{
-    max-width:80%;
-    margin: auto auto 50px auto;
-    border-radius: 10px;;
+    width: 100%;
+    padding:20px;
 }
 
 
@@ -310,7 +310,7 @@ video{
 .content_style_3{
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    margin: 7%;
 }
 .content_style_4{
     display: inline-block;

@@ -311,16 +311,16 @@
             <div class="alone">
                 <div class="taber">
                     <div class="tab">
-                        <a class="tablinks active" onclick="openCity(event, 'portalverbund')">Portalverbund</a>
-                        <a class="tablinks" onclick="openCity(event, 'online-gateway')">Online-Gateway</a>
+                        <a class="tablinks ozg active" onclick="openCity(event, 'portalverbund','taber1','ozg')">Portalverbund</a>
+                        <a class="tablinks ozg" onclick="openCity(event, 'online-gateway','taber1','ozg')">Online-Gateway</a>
                     </div>
-                    <div id="portalverbund" class="content_style_2 tabcontent" style="display: flex;">
+                    <div id="portalverbund" class="content_style_2 tabcontent taber1" style="display: flex;">
                         <p>
                             Der Portalverbund bildet die fördale Struktur Deutschlands ab. Jedes Der Bund, sowie Länder und deren Kommunen müssen ein Portal für ihre Bürger bereitstellen. Jedes dieser Protale verweist wiederum gegenseitig auf die verschiedenen Online-Dienste der zuständigen Behörde. Darüberhinaus bietet jedes Portal einen Nutzerkonto an mit dem der Bürger alle Dienstleistungen in Anspruch nehmen kann.
                         </p>
                         <img src="IMG/Portalverbund.png">
                     </div>
-                    <div id="online-gateway" class="content_style_2 tabcontent">
+                    <div id="online-gateway" class="content_style_2 tabcontent taber1">
                         <p>
                             Das Online-Gatway verbindet alle Verwaltungsportale und ermöglicht den Informationsaustausch. Da die meisten Datenbestände dezentral in ganz Deutschland gespeichert sind, müssen diese unter den Portalen ausgetauscht und aktualisiert werden. Das Online-Gateway bildest somit die Datenautobahn der Behörden und Länder ab.
                         </p>
@@ -840,12 +840,13 @@
                     </p>                    
                 </div>
                 <div>
-                    <img src="IMG/explosionszeichnung.png">                    
+                    <img src="IMG/explosionszeichnung_2.png">                    
                 </div>
             </div>
             <h2></h2>
 
             <h2>Das Freigeben als Kernstück</h2>
+            <span class="underline"></span>
             <div class="content_style_2">
                 <div>
                     <p class="text">
@@ -1082,28 +1083,40 @@
             </div>
 
             <h3>Prototypen</h3>
-            <div class="content_style_1" style="background-color:#CCD6F1; border-radius: 10px;">
-                <div>
-                    <h3 style="text-align: center;margin-top: 50px;color: white;">Auflegen</h3>
-                    <video  controls poster="IMG/Videos/Poste_Auflegen.png">
-                        <source src="IMG/Videos/Auflegen.mp4" type="video/mp4">
-                    </video>                    
-                </div>
-                <div>
-                    <h3 style="text-align: center;margin-top: 50px;color: white;">Hochschieben</h3>
-                    <video controls poster="IMG/Videos/Poster_Hochschieben.png">
-                        <source src="IMG/Videos/Hochschieben.mp4" type="video/mp4">
-                    </video>                    
-                </div>
-                <div>
-                    <h3 style="text-align: center;margin-top: 50px;color: white;">Rüberschieben</h3>
-                    <video controls poster="IMG/Videos/Poster_Rüberschieben.png">
-                        <source src="IMG/Videos/Rüberschieben.mp4" type="video/mp4">
-                    </video>
+
+            <div class="alone">
+                <div class="taber">
+                    <div class="tab">
+                        <a class="tablinks proto active" onclick="openCity(event, 'auflegen','taber2','proto')">Auflegen</a>
+                        <a class="tablinks proto" onclick="openCity(event, 'hochschieben','taber2','proto')">Hochschieben</a>
+                        <a class="tablinks proto" onclick="openCity(event, 'rüberschieben','taber2','proto')">Rüberschieben</a>
+                    </div>
+                    <div id="auflegen" class="content_style_2 tabcontent taber2" style="display: flex;">
+                        <p>
+                        
+                        </p>
+                        <video  controls poster="IMG/Videos/Poste_Auflegen.png">
+                            <source src="IMG/Videos/Auflegen.mp4" type="video/mp4">
+                        </video>  
+                    </div>
+                    <div id="hochschieben" class="content_style_2 tabcontent taber2">
+                        <p>
+                        
+                        </p>
+                        <video controls poster="IMG/Videos/Poster_Hochschieben.png">
+                            <source src="IMG/Videos/Hochschieben.mp4" type="video/mp4">
+                        </video>  
+                    </div>
+                    <div id="rüberschieben" class="content_style_2 tabcontent taber2">
+                        <p>
+                        
+                        </p>
+                        <video controls poster="IMG/Videos/Poster_Rüberschieben.png">
+                            <source src="IMG/Videos/Rüberschieben.mp4" type="video/mp4">
+                        </video> 
+                    </div>
                 </div>
             </div>
-
-
 
             <h2>Inspiration</h2>
             <span class="underline"></span>
@@ -1174,12 +1187,6 @@
             </div>
 
         </section>
-        
-
-        
-
-
-
 
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script>
