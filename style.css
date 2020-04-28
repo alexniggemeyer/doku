@@ -710,3 +710,16 @@ video{
     border-color: transparent transparent transparent lightgray;
   }
 
+
+  #quellen ul{
+      margin: 7%;
+      font-family: Elliot;
+      font-size: 16px;
+      line-height: 31px;
+      list-style-type: none;
+  }
+
+  #quellen li{
+      padding-bottom: 31px;
+
+  }
