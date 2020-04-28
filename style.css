@@ -26,10 +26,17 @@
 }
 
 /* Background*/
-
+html{
+    background-color: #F9F9F9;
+}
+section{
+    background-color: white;
+}
 body{
+    display: block;
     padding: 0;
-    margin: 0;
+    margin: auto;
+    max-width: 1440px;
 }
 
 #content{
@@ -144,7 +151,6 @@ header{
 
 
 /* Content */
-
 .chapter{
     display: flex;
     background-color: #00258D;
@@ -162,13 +168,13 @@ header{
 
 
 .alone{
-    display: flex;
     margin: 7% ;
 }
 
 .alone img{
- width: 100%;
- margin: auto;
+    display: block;
+    width: 80%;
+    margin: auto;
 }
 
 
@@ -558,10 +564,11 @@ video{
     display: block;
     position: relative;
     float: right;
-    height: 30vh;
+    height: 10rem;
     width: 93%;
     background-color: #009EE0;
-    border-radius: 0 0 0 150px;
+    border-radius: 0 0 0 100px;
+    margin-bottom: 10rem;
 }
 
 /* Schaubilder */
@@ -672,29 +679,29 @@ video{
 /* videplayer styling*/
 
 
-.videplayer{
-    width: 70%;
+.videoplayer{
+    position: relative;
+    width: 90%;
     margin: auto;
     
 }
 
 .videoplayer video{
-
-
+    display: block;
+    margin: auto;
 }
 
 .playbutton {
-    display: inline-block;
-    position: relative;
-    transform: translate(-50%,-50%);
     top: 50%;
     left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
     border: 0;
     background: transparent;
     box-sizing: border-box;
     width: 0;
     height: 74px;
-    border-color: transparent transparent transparent white;
+    border-color: transparent transparent transparent black;
     transition: 100ms all ease;
     cursor: pointer;
     border-style: solid;
@@ -711,7 +718,7 @@ video{
   }
 
 
-  #quellen ul{
+  #Quellen ul{
       margin: 7%;
       font-family: Elliot;
       font-size: 16px;
@@ -719,7 +726,7 @@ video{
       list-style-type: none;
   }
 
-  #quellen li{
+  #Quellen li{
       padding-bottom: 31px;
 
   }
