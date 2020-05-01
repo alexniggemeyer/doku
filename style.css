@@ -31,6 +31,7 @@ html{
 }
 section{
     background-color: white;
+    padding: 5rem 0;
 }
 body{
     display: block;
@@ -188,7 +189,7 @@ header{
     height: 40px;
     top: -20px;
     background-color: #FEE01E;
-    z-index: -1;
+    z-index: 1;
 }
 
 /* Section Heading */
@@ -201,9 +202,11 @@ h1{
 }
 
 h2{
+    position: relative;
     font-family: Elliot_bold;
     font-size: 40px;
     margin: 100px 10px 0 7%;
+    z-index: 3;
 
 }
 
