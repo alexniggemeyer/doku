@@ -680,12 +680,13 @@ video{
 
 .videoplayer{
     position: relative;
-    width: 90%;
+    width: 50%;
     margin: auto;
     
 }
 
 .videoplayer video{
+    padding: 0;
     display: block;
     margin: auto;
 }
