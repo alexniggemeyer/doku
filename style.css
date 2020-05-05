@@ -123,11 +123,12 @@ header{
     top: 60px;
     left:0;
     background-color: white;
-    z-index: 1;
+    z-index: 7;
     border-right: solid lightgray 1px;
     transition: 0.5s;
     overflow-x: hidden;
     font-family: Elliot;
+
 }
 
 #sidebar a{
@@ -267,8 +268,10 @@ video{
 
 
 .content_style_1 img{
+    display: block;
     width: 100%;
     border-radius: 10px;
+    margin: auto;
     
     
 }
@@ -339,6 +342,11 @@ video{
     max-width:100%;
     
 }
+
+.bigger div{
+ width: 80%;
+}
+
 .content_left{
     display: block;
     position: relative;
@@ -728,5 +736,22 @@ video{
 
   #Quellen li{
       padding-bottom: 31px;
+
+  }
+
+
+  .floatingText{
+      position: relative;
+      margin: 7%;
+  }
+
+  .floatingText img{
+      position: relative;
+      float: right;
+      display: block;
+      width: 50%;
+      top: 0;
+      margin: 0 0 1rem 2rem;
+      border-radius: 10px;
 
   }
