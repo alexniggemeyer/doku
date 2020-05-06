@@ -61,7 +61,7 @@ function closeNav() {
     scrollLink.click(function(e) {
         e.preventDefault();
         $('body,html').animate({
-            scrollTop: $(this.hash).offset().top +60
+            scrollTop: $(this.hash).offset().top +65
         }, 1000 );
         
     });

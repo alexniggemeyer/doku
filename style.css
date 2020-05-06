@@ -80,6 +80,12 @@ header{
     width: 60%;
 }
 
+.cover h5{
+    color: white;
+    margin: 2rem auto;
+    text-align: center;
+}
+
 .header{
     background-color: white;
     height: 60px;
